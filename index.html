@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Pomodoro</title>
+</head>
+
+<body class="body">
+  <div class="container">
+    <header class="nav-header">
+      <div class="textPomodoro">
+        <h3><img src="img/patch-check-fill.svg" />PomoErnaVini</h3>
+      </div>
+    </header>
+    <div class="timer-container container-a">
+      <header class="header-pomodoro">
+        <ul>
+          <li class="Pomodoro">Pomodoro</li>
+          <li class="SB">Short Break</li>
+          <li class="LG">Long Break</li>
+        </ul>
+      </header>
+      <div class="content-pomodoro">
+        <div class="cronometro">
+          <h1 class="cronometro-h1">25:00</h1>
+        </div>
+        <div class="SS" onmouseenter="hover()" onmouseleave="out()">
+
+          <img class="resetime" src="img/arrow-clockwise.svg" onclick="resetTimer()" />
+          <button class="start">Start</button>
+          <img class="skip" src="img/skip-end-fill.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <img class="logo" src="img/DEVELOPERS.png" />
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
